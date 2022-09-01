@@ -1,0 +1,84 @@
+div[class="Calculator"] {
+    border: 0.5px solid black;
+    padding: 10px 20px;
+    margin-left: 500px;
+    margin-right: 620px;
+    border-radius: 15px;
+    margin-top: 120px;
+    background-color: skyblue;
+    box-shadow: 0px 10px 15px 2px blue;
+}
+
+h1 {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px blue;
+}
+
+input[type="text"] {
+    font-style: italic;
+    text-align: center;
+    padding: 4px 5px;
+    font-weight: bold;
+}
+
+h1:hover {
+    transition: 5s slow;
+    background-color: lightgreen;
+}
+
+input[type="text"] {
+    text-align: center;
+    font-style: italic;
+    box-shadow: 0px 5px 5px 0px lightgreen;
+    border-radius: 10px;
+    background-color: rgb(40, 80, 120);
+}
+
+input[type="text"]:hover {
+    background-color: purple;
+    transition: 5px slow;
+}
+
+button {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 4px 17px;
+    box-shadow: 0px 5px 5px 0px blue;
+    border-radius: 10px;
+}
+
+button[id="reset"] {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 4px 17px;
+    box-shadow: 0px 5px 5px 0px blue;
+    border-radius: 10px;
+}
+
+button[id="add"]:hover {
+    transition: 5s slow;
+    background-color: green;
+}
+
+button[id="sub"]:hover {
+    transition: 5s slow;
+    background-color: pink;
+}
+
+button[id="mul"]:hover {
+    transition: 5s slow;
+    background-color: yellow;
+}
+
+button[id="div"]:hover {
+    transition: 5s slow;
+    background-color: black;
+    color: white;
+}
+
+body {
+    text-align: center;
+    background-color: lightpink;
+}
