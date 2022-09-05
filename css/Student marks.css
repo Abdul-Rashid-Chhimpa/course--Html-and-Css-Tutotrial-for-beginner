@@ -1,0 +1,70 @@
+
+  form[name="entry"] {
+    border:1.5px solid black;
+    margin-right:450px;
+    padding:20px;
+    backgraund-color: blue;
+    border-radius:15px;
+    margin-top:100px;
+    margin-left:450px;
+    background-color: skyblue;
+    position: relative;
+    box-shadow: 5px 15px 10px 5px black;
+  }
+  body{
+     background-color: rgb(40,60,120);
+     float: center;
+  }
+  input[type="submit"]{
+
+      color:white;
+                       background-color: rgb(40,60,120);
+                       border-radius: 4px;
+                       float: left;
+                       border-color: darkgrey;
+                       padding: 4px 23px;
+                       margin-left: 129px;
+                       border-top: 20px;
+                       box-shadow: 0px 5px 5px 0px black;
+                       border:outset;
+  }
+  input[type="button"]{
+
+                       color:white;
+                       background-color: rgb(40,60,120);
+                       border-radius: 4px;
+                       float: left;
+                       border-color: darkgrey;
+                       padding: 5px 10px;
+                       margin-left: 130px;
+                       border-top: 10px;
+                       box-shadow: 0px 5px 5px 0px black;
+                       border:outset;
+
+
+  }
+  input[type="text"]{
+                       background-color:lightgreen;
+                       border-radius: 5px;
+                       color: black;
+
+  }
+  input[type="text"]:hover{
+    background-color: white;
+  }
+
+  div[class=""]{
+    position: relative;
+    animation: arc 8s infinite;
+    font-color:red;
+    font-size: 24px;
+    padding: 4px 4px;
+    animation-timing-function: linear;
+    margin-right: 1080px;
+    border-radius: 6px;
+    margin-top: 100px;
+  }
+  @keyframes arc{
+    from{left:0px; background-color: green;}
+    to{left:1000px;background-color:  red;}
+  }
